@@ -1,0 +1,20 @@
+name: 🔔 Slack Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Slack notification
+        uses: slackapi/slack-github-action@v1.24.0
+        with:
+          payload: |
+            {
+              "text": "✅ GitHub Actions Slack test succeeded! 🎉",
+              "username": "CI/CD Bot",
+              "icon_emoji": ":robot_face:"
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
