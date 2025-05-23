@@ -76,7 +76,7 @@ terraform-ci-cd-s3/
 
 ## 🐣 Code Easter Eggs
 
-Yes, there are hidden messages for devs who look closely — in the code, pipeline, and even the 404 page. Happy hunting.
+Yes, there are hidden messages for devs who look closely in the code, pipeline and even the 404 page. Happy hunting.
 
 ---
 
@@ -92,7 +92,7 @@ After pushing to `main`, you'll get:
 
 ## 🧪 Error Preview (404)
 
-> If you mistype the URL, you'll be greeted with a custom message — complete with jokes and encouragement.
+> If you mistype the URL, you'll be greeted with a custom message, complete with jokes and encouragement.
 
 ---
 
